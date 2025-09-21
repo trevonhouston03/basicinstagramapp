@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+:root {
+    --insta-gradient: linear-gradient(90deg, #fd5949 0%, #d6249f 50%, #285AEB 100%);
+    --insta-bg: #fafafa;
+    --insta-header-bg: #fff;
+    --insta-accent: #d6249f;
+    --insta-btn: #fd5949;
+    --insta-btn-hover: #d6249f;
+    --insta-border: #dbdbdb;
+}
+
+body {
+    background: var(--insta-bg);
+}
+
+header {
+    background: var(--insta-gradient);
+    color: #fff;
+    font-weight: bold;
+    letter-spacing: 1px;
+    border-bottom: 2px solid var(--insta-border);
+}
+
+#post-form {
+    background: var(--insta-header-bg);
+    border: 1px solid var(--insta-border);
+}
+
+#feed {
+    background: transparent;
+}
+
+.post {
+    background: var(--insta-header-bg);
+    border: 1px solid var(--insta-border);
+}
+
+.post img {
+    border: 2px solid var(--insta-accent);
+}
+
+.like-btn {
+    background: var(--insta-btn);
+    color: #fff;
+    border: none;
+    padding: 0.5em 1em;
+    border-radius: 20px;
+    transition: background 0.2s;
+}
+
+.like-btn:hover {
+    background: var(--insta-btn-hover);
+}
+header {
+    background-color: #fff;
+    padding: 1rem;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+#post-form {
+    background-color: #fff;
+    padding: 1rem;
+    margin: 1rem auto;
+    width: 90%;
+    max-width: 500px;
+    border-radius: 8px;
+}
+
+#feed {
+    width: 90%;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.post {
+    background-color: #fff;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border-radius: 8px;
+}
+
+.post img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.like-btn {
+    color: blue;
+    cursor: pointer;
+}
